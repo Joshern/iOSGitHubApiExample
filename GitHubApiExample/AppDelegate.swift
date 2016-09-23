@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  GitHubApiExample
 //
-//  Created by mcs on 9/23/16.
+//  Created by Josh on 9/23/16.
 //  Copyright © 2016 Josh. All rights reserved.
 //
 
