@@ -15,6 +15,7 @@
 		0453EA9A1D9593DB00EDCBBE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453EA991D9593DB00EDCBBE /* User.swift */; };
 		0453EA9C1D9593EC00EDCBBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453EA9B1D9593EC00EDCBBE /* ViewController.swift */; };
 		0453EA9E1D9593F300EDCBBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0453EA9D1D9593F300EDCBBE /* Main.storyboard */; };
+		0453EAC01D98AC4300EDCBBE /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453EABF1D98AC4300EDCBBE /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0453EA991D9593DB00EDCBBE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0453EA9B1D9593EC00EDCBBE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0453EA9D1D9593F300EDCBBE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0453EABF1D98AC4300EDCBBE /* NetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkingManager.swift; path = GitHubApiExample/NetworkingManager.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		0453EA8C1D95937100EDCBBE /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				0453EABF1D98AC4300EDCBBE /* NetworkingManager.swift */,
 			);
 			name = Helper;
 			path = "../../GitHubApi copy/GitHubApi";
@@ -182,6 +185,7 @@
 				0453EA9C1D9593EC00EDCBBE /* ViewController.swift in Sources */,
 				0453EA9A1D9593DB00EDCBBE /* User.swift in Sources */,
 				0453EA7A1D95934D00EDCBBE /* AppDelegate.swift in Sources */,
+				0453EAC01D98AC4300EDCBBE /* NetworkingManager.swift in Sources */,
 				0453EA981D9593CE00EDCBBE /* RepoTableViewCell.swift in Sources */,
 				0453EA971D9593CE00EDCBBE /* Repository.swift in Sources */,
 			);
