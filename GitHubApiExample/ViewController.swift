@@ -32,6 +32,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         self.lblName.text = ""
         self.imgAvatar.image = nil
         self.repositories.removeAll()
+        self.tableView.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -41,7 +42,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     func searchBarSearchButtonClicked(searchBar: UISearchBar){
         self.userInput = searchBar.text
-        
+        self.setInitUI()
         NetworkingManager.sharedInstance.downloadUserData(self.userInput!, completion: {(user) in
             self.user = user
             self.user!.downloadImage({(img) in
