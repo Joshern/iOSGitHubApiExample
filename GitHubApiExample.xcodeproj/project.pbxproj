@@ -10,7 +10,6 @@
 		0453EA7A1D95934D00EDCBBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453EA791D95934D00EDCBBE /* AppDelegate.swift */; };
 		0453EA811D95934D00EDCBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0453EA801D95934D00EDCBBE /* Assets.xcassets */; };
 		0453EA841D95934D00EDCBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0453EA821D95934D00EDCBBE /* LaunchScreen.storyboard */; };
-		0453EA911D9593A900EDCBBE /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453EA901D9593A900EDCBBE /* NetworkingManager.swift */; };
 		0453EA971D9593CE00EDCBBE /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453EA951D9593CE00EDCBBE /* Repository.swift */; };
 		0453EA981D9593CE00EDCBBE /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453EA961D9593CE00EDCBBE /* RepoTableViewCell.swift */; };
 		0453EA9A1D9593DB00EDCBBE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453EA991D9593DB00EDCBBE /* User.swift */; };
@@ -24,7 +23,6 @@
 		0453EA801D95934D00EDCBBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0453EA831D95934D00EDCBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0453EA851D95934D00EDCBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0453EA901D9593A900EDCBBE /* NetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkingManager.swift; path = ../../GitHubApiExample/GitHubApiExample/NetworkingManager.swift; sourceTree = "<group>"; };
 		0453EA951D9593CE00EDCBBE /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		0453EA961D9593CE00EDCBBE /* RepoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
 		0453EA991D9593DB00EDCBBE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -77,7 +75,6 @@
 		0453EA8C1D95937100EDCBBE /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				0453EA901D9593A900EDCBBE /* NetworkingManager.swift */,
 			);
 			name = Helper;
 			path = "../../GitHubApi copy/GitHubApi";
@@ -183,7 +180,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0453EA9C1D9593EC00EDCBBE /* ViewController.swift in Sources */,
-				0453EA911D9593A900EDCBBE /* NetworkingManager.swift in Sources */,
 				0453EA9A1D9593DB00EDCBBE /* User.swift in Sources */,
 				0453EA7A1D95934D00EDCBBE /* AppDelegate.swift in Sources */,
 				0453EA981D9593CE00EDCBBE /* RepoTableViewCell.swift in Sources */,
@@ -343,6 +339,7 @@
 				0453EA8A1D95934D00EDCBBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
